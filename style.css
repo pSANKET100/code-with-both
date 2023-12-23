@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Kalnia', serif;
   }
 
   .container {
@@ -10,6 +12,5 @@ body {
   .section {
     flex: 1;
     padding: 20px;
-    border: 1px solid #ddd;
     box-sizing: border-box;
   }
