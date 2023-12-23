@@ -1,9 +1,15 @@
-h1 {
-    text-align: center;
-    color: red;
-    font-size: 80px;
-}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
 
-body{
-    background-color: black;
-}
+  .container {
+    display: flex;
+  }
+
+  .section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
