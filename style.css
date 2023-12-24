@@ -20,7 +20,7 @@ body {
 img {
     max-width: 100%; 
     height: auto;
-    border: 1px solid #ddd;
+    border: 5px solid black;
     border-radius: 8px; 
     margin-bottom: 10px; 
 }
