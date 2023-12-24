@@ -26,12 +26,9 @@ img {
 }
 h1 {
   font-weight: bold;
-<<<<<<< Updated upstream
   text-decoration-line: underline;
   text-decoration-style: dotted;
-=======
 }
-strong{
+strong {
     font-size: 25px;
->>>>>>> Stashed changes
 }
