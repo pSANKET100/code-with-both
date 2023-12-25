@@ -15,20 +15,33 @@ body {
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
-}
+} 
 
 img {
-    max-width: 100%; 
+    max-width: 70%; 
     height: auto;
-    border: 5px solid black;
-    border-radius: 8px; 
+    border: 5px solid rgb(7, 227, 212); 
     margin-bottom: 10px; 
+    box-shadow: 20px 7px 5px;
 }
 h1 {
-  font-weight: bold;
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-}
+  font-weight: bolder;
+  font-size: 50px;
+  background: linear-gradient(
+    to right,rgb(245, 103, 2),#f9efef 35%,#2d8319d9);
+    background-size: 400% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;}
+    @keyframes gradient{
+        0%{background-position: 0% 75%;}
+        50%{background-position: 100% 50%;}
+        100%{background-position: 0% 70% ;}
+    }
 strong {
     font-size: 25px;
+    background: linear-gradient(
+    to right,rgb(156, 223, 84),#17b9ab 35%,#d70c2ed9);
+    background-size: 200% auto;
 }
+
