@@ -45,3 +45,11 @@ strong {
     background-size: 200% auto;
 }
 
+url{
+    background: linear-gradient(
+        to right,
+        rgba(0,0,0,0.4)
+        rgba(0,0,0,0)
+      );
+}
+
