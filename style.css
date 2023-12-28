@@ -20,7 +20,7 @@ body {
 img {
     max-width: 70%; 
     height: auto;
-    border: 5px solid rgb(7, 227, 212); 
+    border: 5px solid rgb(13, 14, 12); 
     margin-bottom: 10px; 
     box-shadow: 20px 7px 5px;
 }
@@ -28,7 +28,7 @@ h1 {
   font-weight: bolder;
   font-size: 50px;
   background: linear-gradient(
-    to right,rgb(245, 103, 2),#f9efef 35%,#2d8319d9);
+    to right,rgb(213, 9, 98),#000000 35%,#3bf412d9);
     background-size: 400% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -41,15 +41,15 @@ h1 {
 strong {
     font-size: 25px;
     background: linear-gradient(
-    to right,rgb(156, 223, 84),#17b9ab 35%,#d70c2ed9);
+    to right,rgb(237, 241, 246),#b0c0bf 35%,#f7b3bfd9);
     background-size: 200% auto;
 }
 
 url{
     background: linear-gradient(
         to right,
-        rgba(0,0,0,0.4)
-        rgba(0,0,0,0)
+        rgba(237, 232, 232, 0.4)
+        rgba(239, 228, 228, 0)
       );
 }
 
